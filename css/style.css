@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background-color: aquamarine;
+  z-index: 2;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.logodiv {
+  width: 20%;
+  position: fixed;
+}
+.logo {
+  height: 58px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  display: block;
+  padding: 14px 16px;
+  color: pink;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
