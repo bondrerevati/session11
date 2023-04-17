@@ -1,14 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
   position: fixed;
   width: 100%;
   overflow: hidden;
   top: 0;
-  background-color: aquamarine;
+  background-color: #fff;
   z-index: 2;
 }
 .navbar {
@@ -34,11 +34,11 @@ header {
 .menu li a {
   display: block;
   padding: 14px 16px;
-  color: pink;
+  color: #f195b2;
   text-decoration: none;
   text-align: center;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 .container {
   position: relative;
@@ -121,7 +121,7 @@ header {
       left: -200%;
   }
 }
-.about h3 {
+.headings {
   font-size: 48px;
   text-align: center;
   padding: 30px;
@@ -143,4 +143,40 @@ header {
 }
 .aboutText p {
   font-size: 26px;
+}
+.flexProdContainer {
+  padding-top: 50px;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.flexProduct {
+  flex-basis: 33.33%;
+}
+.flexProduct img {
+  width: 200px;
+}
+.prodhead {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.buynow {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  background-color: #f195b2;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+.buynow:hover {
+  background-color: #fff;
+  color: #f195b2;
+  cursor: pointer;
+  border: 1px solid #f195b2;
 }
