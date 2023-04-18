@@ -10,6 +10,7 @@ header {
   top: 0;
   background-color: #fff;
   z-index: 2;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 .navbar {
   display: flex;
@@ -76,12 +77,6 @@ header {
   color: #fff;
   font-size: 48px;
 }
-.container .slider .slide .caption p {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  font-size: 18px;
-}
 .container .slider .slide.slide1 {
   background: url(../images/banner1.jpg);
   background-size: cover;
@@ -121,10 +116,13 @@ header {
       left: -200%;
   }
 }
+.about {
+  padding-top: 58px;
+}
 .headings {
   font-size: 48px;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 .aboutImg {
   float: left;
@@ -137,12 +135,16 @@ header {
 .aboutText {
   text-align: justify;
   margin-top: 50px;
-  padding: 100px;
+  padding: 80px;
   margin-left: 50px;
   padding-right: 200px;
 }
 .aboutText p {
   font-size: 26px;
+}
+.products {
+  padding-top: 58px;
+  clear: both;
 }
 .flexProdContainer {
   padding-top: 50px;
@@ -165,7 +167,7 @@ header {
   font-size: 18px;
   font-weight: bold;
 }
-.buynow {
+.btn {
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 10px 30px;
@@ -173,10 +175,70 @@ header {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 15px;
+  cursor: pointer;
 }
-.buynow:hover {
+.btn:hover {
   background-color: #fff;
   color: #f195b2;
-  cursor: pointer;
   border: 1px solid #f195b2;
+}
+.contact {
+  margin: 40px 200px;
+  border-radius: 5px;
+  padding:0 100px;
+}
+.formField {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #f3c0d0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.formField:focus {
+  outline: none;
+  border: 2px solid #f195b2;
+}
+.formField:hover {
+  border: 2px solid #f195b2;
+}
+.contact .btn {
+  text-align: center;
+}
+.footer {
+  height: 100px;
+}
+.arrowup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.fa {
+  margin: 20px;
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #f195b2;
+  border: 1px solid #fff;
+}
+.fa:hover {
+  color: #f195b2;
+  background-color: #fff;
+  border: 1px solid #f195b2;
+}
+.social-menu {
+  text-align: center;
+  bottom: 20px;
+  position: relative;
+}
+.social-menu-links {
+  list-style-type: none;
+}
+.social-menu-links li {
+  display: inline;
 }
